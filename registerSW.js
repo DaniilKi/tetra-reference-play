@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/tetra-reference-play/sw.js', { scope: '/tetra-reference-play/' })})}
